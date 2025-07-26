@@ -1,6 +1,8 @@
 "use client";
 
-const Header = () => {
+import Header from "../components/Header";
+
+const Home = () => {
   return (
     <div>
       <Header />
@@ -8,4 +10,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;
