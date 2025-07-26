@@ -30,8 +30,8 @@
 
 .card {
   min-width: 250px;
-  background-color: #fff;
-  color: #14432e;
+  background-color: #fffde8;
+  color: #15432e;
   padding: 1.5rem;
   border-radius: 12px;
   scroll-snap-align: start;
@@ -46,7 +46,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #f8cb07;
+  color: #13432f;
 }
 
 .description {
@@ -56,7 +56,7 @@
 
 .button {
   background-color: #feda00;
-  color: #000;
+  color: #15432e;
   border: none;
   padding: 0.6rem 1rem;
   font-weight: bold;
