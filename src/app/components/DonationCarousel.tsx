@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import styles from "./DonationCarousel.module.css";
 
 const donations = [
@@ -34,6 +36,13 @@ const DonationCarousel = () => {
             </div>
           ))}
         </div>
+        <Image
+          src="/gato-olhando.png"
+          alt="Gato observando"
+          width={400}
+          height={400}
+          className={styles.catImage}
+        />
       </div>
     </section>
   );

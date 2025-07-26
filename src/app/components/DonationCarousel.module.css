@@ -3,7 +3,6 @@
   padding: 4rem 2rem;
   position: relative;
   border-top-left-radius: 100% 3rem;
-  border-bottom-right-radius: 100% 3rem;
   z-index: 1;
 }
 
@@ -26,6 +25,7 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   padding-bottom: 2rem;
+  margin-bottom: 9rem;
 }
 
 .card {
@@ -67,4 +67,13 @@
 
 .button:hover {
   background-color: #e2c200;
+}
+
+.catImage {
+  position: absolute;
+  bottom: -37px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  pointer-events: none;
 }
