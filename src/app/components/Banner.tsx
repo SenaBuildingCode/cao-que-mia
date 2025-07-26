@@ -30,7 +30,6 @@ const Banner = () => {
           />
         </div>
       </div>
-      <div className={styles.waveDivider}></div>
     </section>
   );
 };
