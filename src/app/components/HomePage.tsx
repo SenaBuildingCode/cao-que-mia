@@ -6,7 +6,7 @@ import DonationCarousel from "../components/DonationCarousel";
 import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <Header />
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
