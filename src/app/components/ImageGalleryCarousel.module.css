@@ -1,0 +1,34 @@
+.galleryWrapper {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.customGallery .image-gallery-slide-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.customGallery .image-gallery-thumbnail {
+  border: 2px solid transparent;
+  border-radius: 6px;
+}
+
+.customGallery .image-gallery-thumbnail.active,
+.customGallery .image-gallery-thumbnail:hover {
+  border: 2px solid #14432e;
+}
+
+.customGallery .image-gallery-thumbnails {
+  background-color: #fffde8;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.customGallery .image-gallery-icon {
+  color: #14432e;
+  transition: 0.3s;
+}
+
+.customGallery .image-gallery-icon:hover {
+  color: #feda00;
+}

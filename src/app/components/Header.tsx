@@ -27,9 +27,6 @@ const Header = () => {
             <Link href="#">Sobre nós</Link>
           </li>
           <li>
-            <Link href="#">Galeria</Link>
-          </li>
-          <li>
             <Link href="#">Contato</Link>
           </li>
         </ul>
