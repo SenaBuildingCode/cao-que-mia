@@ -7,14 +7,21 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+  }
 }
 
 .text {
   flex: 1 1 55%;
   font-size: 1rem;
   margin-right: 1.5rem;
-  color: #333;
+  color: #14432e;
 }
 
 .text h1 {
@@ -25,6 +32,7 @@
 
 .text ul {
   margin-top: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 .text ul li {

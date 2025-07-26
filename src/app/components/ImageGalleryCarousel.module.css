@@ -1,6 +1,12 @@
 .galleryWrapper {
-  max-width: 50%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 3rem 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .galleryWrapper {
+    max-width: 50%;
+  }
 }
 
 .customGallery .image-gallery-slide-wrapper {
