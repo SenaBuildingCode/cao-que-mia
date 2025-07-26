@@ -2,7 +2,8 @@
   background-color: #f8cb07;
   padding: 4rem 2rem;
   position: relative;
-  border-top-left-radius: 100% 5rem;
+  border-top-left-radius: 100% 3rem;
+  border-bottom-right-radius: 100% 3rem;
   z-index: 1;
 }
 

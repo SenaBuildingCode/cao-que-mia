@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import DonationCarousel from "../components/DonationCarousel";
 import AboutUs from "../components/AboutUs";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Banner />
       <DonationCarousel />
       <AboutUs />
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,83 @@
+.footer {
+  background-color: #feda00;
+  padding: 4rem 2rem;
+  color: #14432e;
+  position: relative;
+  border-top-left-radius: 100% 3rem;
+  border-top-right-radius: 100% 3rem;
+  z-index: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1 1 180px;
+  min-width: 180px;
+}
+
+.logoCircle {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.texth4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul li {
+  margin-bottom: 0.5rem;
+}
+
+.ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.ul li a:hover {
+  color: #14432e;
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.socials a {
+  color: #14432e;
+  font-size: 1.2rem;
+  transition: transform 0.3s;
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+}
