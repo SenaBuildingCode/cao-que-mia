@@ -1,10 +1,10 @@
 "use client";
 
-import Header from "../components/Header";
-import Banner from "../components/Banner";
-import DonationCarousel from "../components/DonationCarousel";
-import AboutUs from "../components/AboutUs";
-import Footer from "../components/Footer";
+import Header from "./Header";
+import Banner from "./Banner";
+import DonationCarousel from "./DonationCarousel";
+import AboutUs from "./AboutUs";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
