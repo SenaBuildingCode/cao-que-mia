@@ -22,7 +22,7 @@ const donations = [
 
 const DonationCarousel = () => {
   return (
-    <section className={styles.section}>
+    <section id="donation" className={styles.section}>
       <div className={styles.content}>
         <h1 className={styles.title}>
           Com sua doação, vidas são transformadas

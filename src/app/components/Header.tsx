@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 
+import { scrollToSection } from "../utils/scrollToSection";
+
 const Header = () => {
   return (
     <header className={styles.header}>
@@ -24,15 +26,20 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="#">Sobre nós</Link>
+            <Link href="#about-us">Sobre nós</Link>
           </li>
           <li>
-            <Link href="#">Contato</Link>
+            <Link href="#contact">Contato</Link>
           </li>
         </ul>
       </nav>
 
-      <button className={styles.button}>Faça uma doação</button>
+      <button
+        onClick={() => scrollToSection("donation")}
+        className={styles.button}
+      >
+        Faça uma doação
+      </button>
     </header>
   );
 };
