@@ -5,7 +5,7 @@ import ImageGalleryCarousel from "./ImageGalleryCarousel";
 
 const AboutUs = () => {
   return (
-    <section className={styles.section}>
+    <section id="about-us" className={styles.section}>
       <div className={styles.content}>
         <div className={styles.text}>
           <h1>Sobre nós</h1>
