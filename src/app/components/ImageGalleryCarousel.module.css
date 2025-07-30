@@ -5,6 +5,7 @@
 
 @media (min-width: 768px) {
   .galleryWrapper {
+    align-self: center;
     max-width: 50%;
   }
 }
